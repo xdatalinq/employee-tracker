@@ -46,7 +46,7 @@ const userPrompt = () => {
         case "Update an employee's role":
           await updateRole();
           break;
-        case "Finish":
+        default:
           console.log("Done...");
           connection.end();
       }
