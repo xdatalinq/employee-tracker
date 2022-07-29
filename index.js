@@ -7,7 +7,7 @@ const dbMethods = require("./db/index.js");
 
 const userPrompt = () => {
   inquirer
-    .prompt({
+    .prompt([{
       type: "list",
       name: "options",
       message: "Select an option",
@@ -21,7 +21,7 @@ const userPrompt = () => {
         "Update an employee role",
         "Finish",
       ],
-    })
+    }])
 
     .then(async (data) => {
       switch (data.options) {
@@ -46,9 +46,12 @@ const userPrompt = () => {
         case "Update an employee's role":
           await updateRole();
           break;
-        default:
+        case "Finish":
           console.log("Done...");
           connection.end();
+          break;
+        default:
+          console.log("default");
       }
     });
 };
