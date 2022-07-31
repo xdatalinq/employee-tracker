@@ -43,7 +43,7 @@ const userPrompt = () => {
         case "Add a department":
           await addDepartment();
           break;
-        case "Update an employee's role":
+        case "Update an employee role":
           await updateRole();
           break;
         case "Finish":
