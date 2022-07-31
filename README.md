@@ -1,6 +1,6 @@
 Description:
 
-    This node application is a built a command line employee tracking program which relies on a SQL database as a back end.
+    This node application is a command line employee tracking program which relies on a SQL database as a back end.
 
 Built Using:
     
