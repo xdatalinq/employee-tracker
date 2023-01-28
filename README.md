@@ -4,7 +4,7 @@
   ## Table of Contents
   * [Description](#description)
   * [Screenshot](#screenshot)
-  * [walkthrough](#walkthrough)
+  * [Walkthrough](#walkthrough)
   * [Repository](#repository)
   * [Contact](#contact)
   * [License](#license)
